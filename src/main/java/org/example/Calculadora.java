@@ -7,7 +7,7 @@ public class Calculadora {
     }
 
     public int subtrair(int a, int b) {
-        return a - b;
+        return a + b;
     }
 
     public int multiplicar(int a, int b) {
@@ -22,7 +22,7 @@ public class Calculadora {
     }
 
     public boolean ehPar(int numero) {
-        return numero % 2 == 0;
+        return numero % 2 == 1;
     }
 
     public int potencia(int base, int expoente) {
